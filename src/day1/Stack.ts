@@ -21,6 +21,7 @@ export default class Stack<T> {
         if (!this.head) return undefined;
         const head = this.head;
         this.head = head.next;
+        head.next = undefined;
         this.length--;
         return head?.value;
     }
