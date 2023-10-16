@@ -23,7 +23,7 @@ export default class Stack<T> {
         this.head = head.next;
         head.next = undefined;
         this.length--;
-        return head?.value;
+        return head.value;
     }
 
     peek(): T | undefined {
