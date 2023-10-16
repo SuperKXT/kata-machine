@@ -80,7 +80,7 @@ export default class DoublyLinkedList<T> {
         return this.removeNode(curr);
     }
 
-    private removeNode(node: Node<T>): T | undefined {
+    private removeNode(node: Node<T>): T {
         this.length--;
         if (node.prev) node.prev.next = node.next;
         if (node.next) node.next.prev = node.prev;
