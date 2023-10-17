@@ -1,5 +1,5 @@
 {
-    "cSpell.words": ["deque"],
+    "cSpell.words": ["deque", "heapify"],
     "files.exclude": {
         "**/.git": true,
         "**/.svn": true,
